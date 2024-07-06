@@ -14,7 +14,7 @@ int main()
 {
     int sockFd, n;
     char buffer[bufferSize];
-    const char *message = "Hello From Client\n";
+    const char *message = "0385\n";
     struct sockaddr_in sevAddr;
     socklen_t len = sizeof(sevAddr);
 

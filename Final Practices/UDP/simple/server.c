@@ -16,7 +16,7 @@ int main()
     char buffer[bufferSize];
     struct sockaddr_in sevAddr, cliAddr;
     socklen_t len = sizeof(cliAddr);
-    const char *message = "Hello From Server\n";
+    const char *message = "Abdul Hanan\n";
 
     if ((sockFd = socket(AF_INET, SOCK_DGRAM, 0)) < 0)
     {
